@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.crm.vtiger.organisation.createOrganisationTest">
+        <methods>
+          <include name="createOrganisationWithIndustryDropDownTest"/>
+          <include name="logoutOfApplication"/>
+          <include name="closeBrowser"/>
+          <include name="createOrganisationWithTypeTest"/>
+          <include name="createOrganization"/>
+          <include name="createOrganisationWithType"/>
+          <include name="createOrganisationWithIndustry"/>
+          <include name="OpenBrowser"/>
+          <include name="loginToApplication"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.organisation.createOrganisationTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
