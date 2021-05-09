@@ -1,0 +1,8 @@
+class A
+{
+  @Test
+  public void execute()
+  {
+    System.out.println("new execute method");
+  }
+}
