@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 public class createAndDelete 
 {
 	@Test
-	public void run()
+	public void stop()
 	{
-		System.out.println("newly created file");
+		System.out.println("stop it man");
 	}
 
 }
